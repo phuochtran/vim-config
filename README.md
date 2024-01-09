@@ -10,14 +10,13 @@ Pre-requisite
  ├── colors/
  └── plugged/
 ```
-* Copy `.vimrc` into your home directory
+* Copy `.vimrc` from repository into your home directory
 * Install `vim-plug`
 ```bash
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+curl -fLo ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 * Install theme `molokai`
 ```bash
-cd ~/.vim/colors
-curl -o molokai.vim https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
+curl -o ~/.vim/colors/molokai.vim https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
 ```
 
