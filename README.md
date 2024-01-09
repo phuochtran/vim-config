@@ -3,12 +3,13 @@
 Pre-requisite
 
 * Create folder `.vim` in your home directory
-    .vim/
-     ├── autoload/
-     ├── backup/
-     ├── colors/
-     └── plugged/
-
+```text
+.vim/
+ ├── autoload/
+ ├── backup/
+ ├── colors/
+ └── plugged/
+```
 * Copy `.vimrc` into your home directory
 * Install `vim-plug`
 ```bash
