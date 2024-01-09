@@ -1,14 +1,8 @@
 # vim-config
 
-Pre-requisite
-
 * Create folder `.vim` in your home directory
 ```text
-.vim/
- ├── autoload/
- ├── backup/
- ├── colors/
- └── plugged/
+mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/colors ~/.vim/plugged
 ```
 * Copy `.vimrc` from repository into your home directory
 * Install `vim-plug`
